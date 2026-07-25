@@ -1,0 +1,78 @@
+{
+  "name": "Nebula — Habit & Task Tracker",
+  "short_name": "Nebula",
+  "description": "Track habits, tasks & Ramadan — offline, trilingual, one-time payment",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": [
+    "productivity",
+    "lifestyle",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily Tracker",
+      "short_name": "Tracker",
+      "description": "Open the monthly heatmap tracker",
+      "url": "./?shortcut=tracker",
+      "icons": [
+        {
+          "src": "./logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Notes & Journal",
+      "short_name": "Journal",
+      "description": "Open the notes and journal section",
+      "url": "./?shortcut=notes",
+      "icons": [
+        {
+          "src": "./logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Interval Habits",
+      "short_name": "Intervals",
+      "description": "View due interval & long-term habits",
+      "url": "./?shortcut=longterm",
+      "icons": [
+        {
+          "src": "./logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
